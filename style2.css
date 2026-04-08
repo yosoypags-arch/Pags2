@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-image: url("https://images.unsplash.com/photo-1518770660439-4636190af475");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor {
+    background: rgba(0, 0, 0, 0.75);
+    padding: 25px;
+    border-radius: 15px;
+    width: 90%;
+    max-width: 500px;
+    color: white;
+}
+
+h2, h3 {
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: none;
+}
+
+button {
+    width: 100%;
+    margin-top: 10px;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: #00bcd4;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0097a7;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: rgba(255,255,255,0.1);
+    padding: 10px;
+    margin-top: 8px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li span {
+    cursor: pointer;
+}
+
+li button {
+    width: auto;
+    background: #f44336;
+    color: white;
+}
+
+li button:hover {
+    background: #d32f2f;
+}
+
+.borrar-todo {
+    background: #ff9800;
+}
+
+.borrar-todo:hover {
+    background: #fb8c00;
+}
+
+.btn-regresar {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #4caf50;
+    color: white;
+    padding: 12px 18px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 14px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+    z-index: 1000;
+}
+
+.btn-regresar:hover {
+    background: #43a047;
+}

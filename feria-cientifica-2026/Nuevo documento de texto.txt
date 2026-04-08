@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Segundo Básico</title>
+    <link rel="stylesheet" href="style2.css">
+
+
+</head>
+<body>
+
+
+
+
+<a href="index.html" class="btn-regresar">⬅ Regresar al inicio</a>
+
+
+
+
+<div class="contenedor">
+
+    <h2>Bienvenido Segundo Básico</h2>
+
+    <input type="text" id="nombre" placeholder="Tu nombre">
+    <button onclick="guardarNombre()">Guardar nombre</button>
+
+<button onclick="window.location.href='pagina2.html'">Entrar</button>
+
+
+    <h3>Proyectos</h3>
+
+    <ul id="lista"></ul>
+
+    <input type="text" id="proyecto" placeholder="Nuevo proyecto">
+    <button onclick="agregarProyecto()">Agregar</button>
+
+    <button class="borrar-todo" onclick="borrarTodo()">
+    Borrar todos los proyectos
+</button>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+
+</body>
+</html>
